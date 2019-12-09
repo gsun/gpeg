@@ -1,0 +1,5 @@
+-main Parser  
+-lib moon-peg 
+-lib tink_cli
+-neko parser.n
+-cmd neko parser.n --in-file lisp.peg --out-class-name Lisp
